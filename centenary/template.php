@@ -63,13 +63,13 @@
 
 /**
  * Implementation of HOOK_theme().
- */
-function starterkit_theme(&$existing, $type, $theme, $path) {
+ *
+function centenary_theme(&$existing, $type, $theme, $path) {
   $hooks = zen_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
   $hooks['hook_name_here'] = array( // Details go here );
-  */
+  *
   // @TODO: Needs detailed comments. Patches welcome!
   return $hooks;
 }
@@ -96,12 +96,14 @@ function centenary_preprocess(&$vars, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
 function centenary_preprocess_page(&$vars, $hook) {
-  $vars['sample_variable'] = t('Lorem ipsum.');
-
-  // To remove a class from $classes_array, use array_diff().
-  //$vars['classes_array'] = array_diff($vars['classes_array'], array('class-to-remove'));
+  //$vars['classes'] = implode(' ', $vars['classes_array']);
+  if (is_object($vars['node'])) {
+    $vars['node_class'] = $vars['node']->type;
+    if ($sh = variable_get("cg_superhead_{$vars['node']->type}", '')) {
+      $vars['node_super_head'] = "<div class='node-super-head {$vars['node']->type}'>$sh</div>";
+    }
+  }
 }
 // */
 
@@ -127,7 +129,9 @@ function centenary_preprocess_node(&$vars, $hook) {
   if (module_exists('token') && $vars['teaser']) {
     $vars['teaser_header'] = token_replace(variable_get("cg_teaserheader_{$vars['node']->type}", variable_get('cg_teaserheaders', '[type-name]: [title]')), 'node', $vars['node']);
   }
-
+  if (is_array($vars['classes_array']) && count($vars['classes_array'])) {
+    $vars['classes'] = implode($vars['classes_array'], ' ');
+  }
 }
 // */
 
@@ -158,3 +162,6 @@ function centenary_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
+
+function centenary_date_all_day_label() { return ''; }
+

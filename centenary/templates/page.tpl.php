@@ -115,6 +115,17 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("#block-menu-menu-assets ul.menu").superfish({
+            delay:       100,
+            animation:   {opacity:'show',height:'show'},
+            speed:       'fast',
+            autoArrows:  true,
+            dropShadows: true
+        });
+  });
+</script>
 </head>
 <body class="<?php print $classes; ?>">
 
@@ -191,6 +202,7 @@
 
         <?php print $breadcrumb; ?>
         <?php if ($title): ?>
+          <?php if ($node_super_head) print $node_super_head; ?>
           <h1 class="title"><?php print $title; ?></h1>
         <?php endif; ?>
         <?php print $messages; ?>

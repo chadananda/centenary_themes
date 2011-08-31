@@ -39,6 +39,7 @@ stylesheets[all][]   = css/forms.css
 stylesheets[all][]   = css/fields.css
 stylesheets[all][]   = css/html-reset.css
 stylesheets[all][]   = css/cent.css
+stylesheets[all][]   = css/editors-menu.css
 stylesheets[print][] = css/print.css
 ; stylesheets[handheld][] = css/mobile.css
 ; stylesheets[only screen and (max-device-width: 480px)][] = css/iphone.css
@@ -49,7 +50,7 @@ conditional-stylesheets[if lte IE 6][all][] = css/ie6.css
 
   ; Optionally add some JavaScripts to your theme.
 ; scripts[] = js/script.js
-
+scripts[] = js/superfish.js
   ; The regions defined in Zen's default page.tpl.php file.  The name in
   ; brackets is the name of the variable in the page.tpl.php file, (e.g.
   ; "[content_top]" in the .info file means there should be a $content_top
