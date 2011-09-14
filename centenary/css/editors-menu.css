@@ -194,4 +194,25 @@ padding: 0 8px 9px 0;
 background: transparent;
 }
 
+/*  Editing view */
+
+.view-id-editing td.views-field-title a {
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
+    background: none repeat scroll 0 0 lightgrey;
+    border: 1px solid black;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 1px 4px 1px 12px;
+    padding: 2px 5px;
+    vertical-align: bottom;
+}
+
+.view-id-editing td.views-field-title .editing-updated a { color:green; border-color:green; }
+.view-id-editing td, .view-id-editing th { padding: 6px; }
+.view-id-editing .views-field-type { width:40px; }
+.view-id-editing .views-field-title { width:280px; }
+.view-id-editing td.views-field-body { font-size:10px; line-height:10px; }
+.view-id-editing .views-field-changed { width:42px; }
 

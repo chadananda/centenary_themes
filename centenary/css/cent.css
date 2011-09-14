@@ -139,11 +139,11 @@ a:active {
 	padding-top: 20px;
 }
 
-#content {
+#content, .no-sidebars #content, .two-sidebars #content {
 	float:right;
-	width:700px;
-	margin: 0px;
-	margin-right: 20px;
+	width:700px; !important;
+	margin: 0px; !important;
+	margin-right: 20px; !important;
 	padding: 30px;
 	padding-top: 15px;
 	padding-bottom: 10px;
@@ -187,6 +187,9 @@ a:active {
         overflow:visible;
 }
 
+.region-navigation {
+  margin-top:50px;
+}
 #main-menu li {
 	padding: 0px;
 	margin-bottom: 8px;
@@ -287,7 +290,7 @@ a:active {
 
 
 
-#block-block-3, #block-block-4 { /*  get involved and resources blocks */
+#block-block-3, #block-block-4, #block-block-5 { /*  get involved and resources blocks */
 	margin-left: 0px;
 	width: 155px;
 	border-right: 0px solid #000;
@@ -322,7 +325,8 @@ a:active {
 }
 
 #block-block-3 h2, /*  get involved and resources headline */
-#block-block-4 h2 {
+#block-block-4 h2,
+#block-block-5 h2 {
 	color: #ffffff;
 	margin:0px;
 	margin-bottom: 6px;
@@ -450,6 +454,8 @@ ul.links li {
 	padding: 0px;
 }
 
+#footer span.ext { display:none; }
+
 
 /* ----- theme page content ------------------------------------------------ */
 .field-field-history {
@@ -460,6 +466,18 @@ ul.links li {
 	margin-left: 15px;
 	border-left: solid 1px #003359;
 	margin-top: 0px;
+        color:saddleBrown;
+        padding-bottom:20px;
+}
+.field-field-history .field-items:before {
+  content:"Historical Perspective";
+  font-weight:bold;
+  font-size:16px;
+}
+
+.field-field-overview {
+  font-size:14px;
+  line-height:1.3em;
 }
 
 .views-field-title a {
