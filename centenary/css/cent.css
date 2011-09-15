@@ -18,6 +18,8 @@ fieldset {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
+body.not-logged-in div.node-edit-link { overflow:hidden; height:0px; }
+
 .node-super-head {
 	background-color:#ffffff;
 	text-align:left;
@@ -36,6 +38,10 @@ fieldset {
 	background-image: url(../images/little-banner-2.jpg);
 	background-repeat: no-repeat;
 }
+.node .fivestar-static-form-item,
+.view-Pictures .fivestar-widget-static {display:none;}
+.node.build-mode-full form.fivestar-widget {position:absolute; top:35px; right:37px;}
+.view-Pictures form.fivestar-widget{position:relative;left:215px;top:-20px;width:102px;}
 
 h1,
 h2,
@@ -351,7 +357,6 @@ a:active {
 }
 
 #block-block-4 {
-	margin-top: 50px;
 }
 
 #block-block-3 a:link {
@@ -626,8 +631,8 @@ ul.links li {
 	padding-right: 12px;
 	padding-top: 14px;
 	padding-bottom: 14px;
-	margin-bottom:15px;
-	margin-top: 25px;
+	margin-bottom: 74px;
+	margin-top: 74px;
 	margin-left: 10px;
 	z-index: 10;
 	clear:both;
@@ -723,9 +728,36 @@ table.views-view-grid .views-field-title-1 {
 	margin-top: -20px;
 }
 
+/* -------------------- views ---------------------------- */
+
+.view-Pictures .views-field-field-main-image-fid img {
+padding: 0 27px;
+position:absolute;
+}
+
+.view-Pictures h2 {
+height: 35px;
+width: 302px;
+vertical-align: bottom;
+padding: 0 8px;
+background: #003359;
+color: white;
+line-height: 35px;
+text-align:center;
+}
+.view-Pictures tr td { height:274px; }
+.view-Pictures .transparent-caption {
+  position:relative;
+  right:-91px;
+  bottom:-174px;
+  width:200px;
+  height:12px;
+  overflow:hidden;
+}
+.view-Pictures .views-field-edit-node {position:absolute;}
 
 /* -------------------- news clippings ------------------- */
-.node-type-clip p {
+.node-type-clip #content p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	line-height: 1.5em;
@@ -735,7 +767,7 @@ table.views-view-grid .views-field-title-1 {
 }
 
 .node-type-clip div.field, .node-type-clip div.field-field-pubname, .node-type-clip .location  {
-	font-size: 0.6em;
+	font-size: 0.8em;
 	line-height: 1.2em;
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   margin: 0px;
