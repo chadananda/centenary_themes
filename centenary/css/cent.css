@@ -286,7 +286,7 @@ a:active {
 	margin-left: 9px;
 	margin-bottom: 9px;
 	margin-right:5px;
-	width: 85px;
+	width: 80px;
 	height: auto;
 	margin-top: -50px;
 }
@@ -756,6 +756,8 @@ text-align:center;
 }
 .view-Pictures .views-field-edit-node {position:absolute;}
 
+.view-Talks .views-field-edit-node {position:absolute;bottom:12px;left:525px;}
+
 /* -------------------- news clippings ------------------- */
 .node-type-clip #content p {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -777,7 +779,7 @@ text-align:center;
 	margin-top: 10px;
 }
 
-.node-type-clip .field-field-clip-img {
+.node.build-mode-full .field-field-clip-img {
 	float: right;
 	margin: 10px !important;
 	margin-left: 20px !important;
