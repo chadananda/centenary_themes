@@ -758,6 +758,16 @@ text-align:center;
 
 .view-Talks .views-field-edit-node {position:absolute;bottom:12px;left:525px;}
 
+.view-events-block.view-display-id-page_1 .views-field-nid {
+position: relative;
+top: 13px;
+font-variant: small-caps;
+font-size: 17px;
+padding-top: 11px;
+clear:both;
+}
+.view-events-block .views-field-field-main-image-fid { float:left; margin-right:9px; }
+
 /* -------------------- news clippings ------------------- */
 .node-type-clip #content p {
 	font-family: Georgia, "Times New Roman", Times, serif;
