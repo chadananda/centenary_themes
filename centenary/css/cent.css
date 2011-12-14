@@ -473,6 +473,7 @@ ul.links li {
 	margin-top: 0px;
         color:saddleBrown;
         padding-bottom:20px;
+        clear:right;
 }
 .field-field-history .field-items:before {
   content:"Historical Perspective";

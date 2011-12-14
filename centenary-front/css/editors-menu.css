@@ -131,11 +131,9 @@ z-index:10;
 }
 
 #block-menu-menu-assets .menu li:hover {
-background:transparent url(images/menu-hover-bg.gif) repeat-x;
 }
 
 #block-menu-menu-assets .menu li.active-trail {
-background:transparent url(images/menu-hover-bg.gif) repeat-x;
 }
 
 #block-menu-menu-assets .menu li.active-trail li {
@@ -160,7 +158,6 @@ width:10px;
 height:10px;
 text-indent:-999em;
 overflow:hidden;
-background:url(images/arrows-ffffff.png) no-repeat -10px -100px;
 }
 a > .sf-sub-indicator {
 top:.8em;
@@ -186,7 +183,6 @@ background-position: -10px 0;
 }
 
 #block-menu-menu-assets .sf-shadow ul {
-background: url(images/shadow.png) no-repeat bottom right;
 padding: 0 8px 9px 0;
 }
 
