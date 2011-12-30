@@ -200,7 +200,7 @@ background: transparent;
     color: black;
     font-size: 10px;
     font-weight: bold;
-    margin: 1px 4px 1px 12px;
+    margin: 1px;
     padding: 2px 5px;
     vertical-align: bottom;
 }
@@ -212,5 +212,22 @@ background: transparent;
 .view-id-editing .views-field-field-editingassigned-uid { width:40px; }
 .view-id-editing td.views-field-field-editingnotes-value { font-size:10px; line-height:10px; width:170px;}
 .view-id-editing .views-field-changed { width:42px; }
+
+.view-editing a.flag {
+display: block;
+height: 12px;
+width: 12px;
+text-indent: -999px;
+overflow: hidden;
+background: #0C0;
+border: 3px solid lightGrey;
+float: left;
+}
+
+.view-editing a.flag.flag-action {background:#f2f2f2;}
+
+.view-editing .views-field-ops {height:18px;width:18px;}
+
+.view-editing .flag-throbber {display:none;}
 
 
