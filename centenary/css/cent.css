@@ -245,6 +245,9 @@ ul.links li.cg_term_links a { padding: 2px 9px; background:#DEE6D8; border-radiu
 	margin-bottom: 25px;
 }
 
+.view-id-talk_navigation { width:41%; padding-right:9%; }
+.view-id-talk_navigation .view-display-id-block_1 { float:right; padding-right:0; padding-left:9px; text-align:right; }
+
 #block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-block-2, #block-block-3, #block-block-4  { /* this is the set of three blocks */
 	width: 235px;
 	margin: 9px;
