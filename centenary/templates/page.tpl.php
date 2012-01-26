@@ -129,8 +129,6 @@
 </head>
 <body class="<?php print $classes; ?>">
 
-<div id="background-map"><?php print $background; ?></div>
-
   <div id="page-wrapper"><div id="page">
 
     <div id="header"><div class="section clearfix">

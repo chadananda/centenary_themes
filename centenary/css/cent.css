@@ -3,6 +3,9 @@
 
 body {
 	background-color: #3f5c3b;
+  background-image: url("../images/map-background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 body,
