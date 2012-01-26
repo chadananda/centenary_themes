@@ -236,6 +236,20 @@ a:active {
 
 ul.links li.cg_term_links { margin:9px 12px; display:block; }
 ul.links li.cg_term_links a { padding: 2px 9px; background:#DEE6D8; border-radius:3px; }
+ul.links li.cg_term_delete { float:left; display:block; }
+ul.links li.cg_term_delete a {
+  background: none repeat scroll 0 0 lightsalmon;
+  border-radius: 12px 12px 12px 12px;
+  color: white;
+  display: block;
+  font-weight: bold;
+  height: 14px;
+  line-height: 12px;
+  margin-right: 4px;
+  margin-top: 2px;
+  text-align: center;
+  width: 14px;
+}
 
 /* the blocks under the main content ---------------------------------------------------------------------*/
 #after_content_bottom {
