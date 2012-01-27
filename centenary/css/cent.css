@@ -826,3 +826,7 @@ padding-top: 11px;
 	border: 1px #cccccc solid;
 	line-height: .5em;
 }
+
+/********************* Form items *********************************************/
+
+#taxonomy-5-container .form-item {clear:both;}
