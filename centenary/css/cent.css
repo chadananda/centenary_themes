@@ -797,12 +797,13 @@ padding-top: 11px;
 #block-views-tagged_content-block_2 {
   width:45%;
   float:left;
-  padding:0 2.5%;
+  padding:0 2%;
   background: #fff url("../images/main-back.png") repeat-x bottom left;
   border-radius: 8px;
+  margin-right:2%;
 }
 
-#block-views-tagged_content-block_2 { float:right; }
+#block-views-tagged_content-block_2 { float:right; margin-right:0; }
 
 #block-views-tagged_content-block_1 li,
 #block-views-tagged_content-block_2 li {
