@@ -175,6 +175,8 @@ a:active {
 	z-index: 5 !important;
 }
 
+.region-content-bottom { border-top:1px dashed #DEE6D8; margin-top:19px; padding-top:19px; }
+
 #content-bottom-shadow {
 	float:right;
 	width:760px;
@@ -790,6 +792,29 @@ font-size: 17px;
 padding-top: 11px;
 }
 .view-events-block .views-field-field-main-image-fid { float:left; margin-right:9px; }
+
+#block-views-tagged_content-block_1,
+#block-views-tagged_content-block_2 {
+  width:45%;
+  float:left;
+  padding:0 2.5%;
+  background: #fff url("../images/main-back.png") repeat-x bottom left;
+  border-radius: 8px;
+}
+
+#block-views-tagged_content-block_2 { float:right; }
+
+#block-views-tagged_content-block_1 li,
+#block-views-tagged_content-block_2 li {
+  padding:4px 0;
+  list-style: disc;
+}
+
+#block-views-tagged_content-block_1 h2.title,
+#block-views-tagged_content-block_2 h2.title {
+  font-family: 	Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  padding-top: 19px;
+}
 
 /* -------------------- news clippings ------------------- */
 .node-type-clip #content p {
