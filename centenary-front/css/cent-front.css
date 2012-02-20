@@ -25,7 +25,7 @@
 }
 
 .region-navigation {
-  margin-top:50px;
+  margin:28px 0;
 }
 
 h1 {
@@ -87,3 +87,7 @@ h1 {
 
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-field-photo-caption-value .field-content {
 	-moz-opacity:1.0; filter:alpha(opacity=100); opacity:1.0; }
+
+
+div#after_content_bottom {clear:right;}
+div#block-block-2 {margin-left:9px;}

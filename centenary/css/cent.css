@@ -281,7 +281,7 @@ ul.links li.cg_term_delete a {
 
 #block-block-2 { /* this is the map --- */
 	padding-left: 10px;
-	margin-left: 22px;
+	margin-left: 179px;
 }
 
 #block-block-2 h2.title {
@@ -321,48 +321,47 @@ ul.links li.cg_term_delete a {
 
 
 
-#block-block-3, #block-block-4, #block-block-5 { /*  get involved and resources blocks */
-	margin-left: 0px;
-	width: 155px;
-	border-right: 0px solid #000;
-	min-height: 50px;
-	padding:5px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	background-color: #003359;
-	left: 0px;
-	margin-bottom: 0px;
+#block-block-6 .block { /*  get involved and resources blocks */
+    background-color: #003359;
+    border-right: 0 solid #000000;
+    left: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-height: 50px;
+    padding: 5px 5px 0 0;
+    width: 155px;
+    overflow:hidden;
+    height:80px;
+    margin-top:19px;
+    position:relative;
 }
-
-#block-search-0, #block-masquerade-0 {
-	width: 155px;
-	margin-left: 12px;
-	float:left;
-	margin-top: 15px;
-	display:block;
-	clear:left;
-	position:absolute;
-	top:65px;
-}
-#block-masquerade-0 {
-	top: 120px;
-}
-#block-masquerade-0  .form-item .description {
-	line-height:.9em;
-}
-
-#block-search-0 input {
-	width:135px;
-}
-
-#block-block-3 h2, /*  get involved and resources headline */
-#block-block-4 h2,
-#block-block-5 h2 {
+#block-block-6 .block h2 /*  get involved and resources headline */
+{
 	color: #ffffff;
 	margin:0px;
 	margin-bottom: 6px;
 	padding: 0px;
 	padding-left: 10px;
+  line-height:1em;
+  font-size:1.1em; 
+}
+#block-block-6 .block h2 a { color:white; }
+#block-block-6 .block .content { height:54px; position:relative; overflow:hidden; }
+
+#block-masquerade-0 {
+	width: 155px;
+	margin-left: 12px;
+	margin-top: 15px;
+	display:block;
+  position:absolute;
+}
+#block-masquerade-0  .form-item .description {
+	line-height:.9em;
+}
+
+#block-search-0 {margin-left:19px; margin-bottom:28px;}
+#block-search-0 input {
+	width:135px;
 }
 
 #block-block-3 .content, /*  get involved and resources p */
@@ -560,7 +559,7 @@ ul.links li {
 
 
 /* ----- Sidebar blocks ------------------------------------------------ */
-.region-navigation { margin-left:16px; z-index:20; }
+.region-navigation { margin:28px 0; z-index:20; }
 .region-navigation .form-item .description { font-size: 9px; }
 .region-navigation h2.title { margin: 12px 0 2px; }
 #block-masquerade-0 .form-submit,
