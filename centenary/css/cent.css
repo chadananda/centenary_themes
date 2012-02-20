@@ -359,9 +359,11 @@ ul.links li.cg_term_delete a {
 	line-height:.9em;
 }
 
-#block-search-0 {margin-left:19px; margin-bottom:28px;}
+#block-search-0 {margin-left:12px; margin-bottom:28px;}
 #block-search-0 input {
-	width:135px;
+	width:142px;
+  font-size:20px;
+  height:24px;
 }
 
 #block-block-3 .content, /*  get involved and resources p */
