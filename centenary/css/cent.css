@@ -362,8 +362,16 @@ ul.links li.cg_term_delete a {
 #block-search-0 {margin-left:12px; margin-bottom:28px;}
 #block-search-0 input {
 	width:142px;
-  font-size:20px;
+  font-size:17px;
   height:24px;
+}
+#block-search-0 h2.centenary-search {
+  position: absolute;
+  z-index: 500;
+  margin-top: 4px;
+  margin-left: 5px;
+  color: gray;
+  font-style: italic;
 }
 
 #block-block-3 .content, /*  get involved and resources p */
