@@ -861,28 +861,7 @@ padding-top: 11px;
   padding-top: 19px;
 }
 
-.view-city-list { height:420pt; }
-.view-city-list .item-list { width:175pt; }
-
-.view-city-list .item-list.maryland,
-.view-city-list .item-list.massachusetts,
-.view-city-list .item-list.minnesota,
-.view-city-list .item-list.nebraska,
-.view-city-list .item-list.new-hampshire {
-  margin-left:185pt;
-}
-.view-city-list .item-list.maryland {margin-top:-420pt;}
-
-.view-city-list .item-list.new-jersey,
-.view-city-list .item-list.new-york,
-.view-city-list .item-list.ohio,
-.view-city-list .item-list.pennsylvania,
-.view-city-list .item-list.quebec,
-.view-city-list .item-list.utah,
-.view-city-list .item-list.wisconsin {
-  margin-left:370pt;
-}
-.view-city-list .item-list.new-jersey {margin-top:-342pt;}
+.view-city-list { width:240px; float:left; }
 
 
 /* -------------------- news clippings ------------------- */
