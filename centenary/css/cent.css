@@ -861,7 +861,10 @@ padding-top: 11px;
   padding-top: 19px;
 }
 
-.view-city-list { width:240px; float:left; }
+.block-views-city_list-block_1,
+.block-views-city_list-block_2,
+.block-views-city_list-block_3 { width:233px; float:left; }
+.block-views-city_list-block_3 { float:none; }
 
 
 /* -------------------- news clippings ------------------- */
