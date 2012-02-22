@@ -22,6 +22,7 @@
 <?php 
 $x = check_plain($fields['field_pos_x_value']->raw);
 $y = check_plain($fields['field_pos_y_value']->raw);
+$published = $fields['status']->raw;
 if (is_numeric($x) && is_numeric($y) && $x > 0 && $y > 0) { 
 
 if (!($flag = check_plain($fields['field_map_flag_type_value']->raw))) $flag = 'map-pin-red';
@@ -35,9 +36,7 @@ $yoffset = round($size/6);
 
 <div class="travelmap-city" style="top:<?php print $y; ?>px; left:<?php print $x; ?>px;">
   <div class="travelmap-city-marker" style="left:-<?php print $xoffset;?>px; bottom:-<?php print $yoffset;?>px;">
-    <a href="<?php print $fields['path']->content;?>" class="travelmap-city-link">
-      <img src="/sites/all/themes/centenary/images/<?php print $flag?>.png" height="<?php print $size?>" width="<?php print $size?>" alt="<?php print $fields['title']->content; ?>" />
-    </a>
+    <img src="/sites/all/themes/centenary/images/<?php print $flag?>.png" height="<?php print $size?>" width="<?php print $size?>" alt="<?php print $fields['title']->content; ?>" />
   </div>
   <div class="travelmap-city-assets">
     <?php print $fields['field_assets_nid']->content; ?>
