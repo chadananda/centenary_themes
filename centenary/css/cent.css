@@ -861,9 +861,9 @@ padding-top: 11px;
   padding-top: 19px;
 }
 
-#block-views-city_list-block_1,
-#block-views-city_list-block_2,
-#block-views-city_list-block_3 { width:233px; float:left; }
+#block-views-city_list-block_1 {width:233px; float:left; margin-left:40px;}
+#block-views-city_list-block_2 {width:233px; float:left;}
+#block-views-city_list-block_3 {width:193px; float:left;}
 
 
 /* -------------------- news clippings ------------------- */
