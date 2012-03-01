@@ -132,6 +132,35 @@ function centenary_preprocess_node(&$vars, $hook) {
   if (is_array($vars['classes_array']) && count($vars['classes_array'])) {
     $vars['classes'] = implode($vars['classes_array'], ' ');
   }
+  if (in_array($vars['node']->type, array('additional_resource', 'city', 'comm_event', 'encounter', 'image', 'clip', 'talk', 'theme_overview', 'vignette'))) {
+    $vars['likelinks_top'] = <<< EOT
+    <div class="likelinks top">
+      <div class="fb-buttons">
+        <div class="fb-like" data-send="true" data-layout="button_count" data-width="150" data-show-faces="false"></div>
+      </div>
+      <div class="t-buttons">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="centenary,bahai">Tweet</a>
+      </div>
+      <div class="g-buttons">
+        <g:plusone size="medium"></g:plusone>
+      </div>
+    </div>
+EOT;
+    $vars['likelinks_bottom'] = <<< EOT
+    <div class="likelinks">
+      <h2 class="title">Share This!</h2>
+      <div class="t-buttons">
+        <a href="https://twitter.com/share" data-size="large" class="twitter-share-button" data-hashtags="centenary,bahai">Tweet</a>
+      </div>
+      <div class="g-buttons">
+        <g:plusone></g:plusone>
+      </div>
+      <div class="fb-buttons">
+        <div class="fb-like" data-send="true" data-width="320" data-show-faces="true"></div>
+      </div>
+    </div>
+EOT;
+  }
 }
 // */
 

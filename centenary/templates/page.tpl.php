@@ -115,6 +115,7 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+<div id="fb-root"></div>
 <script type="text/javascript">
   jQuery(document).ready(function($) {
     $("#block-menu-menu-assets ul.menu").superfish({
@@ -269,6 +270,27 @@
 
   <?php print $closure; ?>
 
+  <script id="deferedjs" type="text/javascript">
+    var b = document.createElement('script');
+    b.type = 'text/javascript';
+    b.src = ('http://platform.twitter.com/widgets.js');
+    var a=document.getElementById("deferedjs");
+    a.parentNode.insertBefore(b,a);
+  </script>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=110818959027137";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '//apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 
 </body>
 </html>

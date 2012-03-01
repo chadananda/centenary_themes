@@ -73,7 +73,9 @@
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix centenary-node">
-  <?php if (!$teaser) print $user_picture; ?>
+  <?php if (!$teaser): ?>
+    <?php print $user_picture; ?>
+  <?php endif; ?>
   
   <?php if ($teaser_header): ?>
     <div class="teaser-header">
@@ -102,13 +104,22 @@
     </div>
   <?php endif; ?>
 
+  <?php if ($likelinks_top) print $likelinks_top; ?>
+
 <?php endif; ?>
 
   <div class="content">
     <?php print $content; ?>
   </div>
 
-  <?php if (!$teaser) print $links; ?>
+  <?php if (!$teaser): ?>
+
+    <?php if ($likelinks_bottom) print $likelinks_bottom; ?>
+
+    <div class="node-taxonomy-links">
+      <?php print $links; ?>
+    </div>
+  <?php endif; ?>
 
 </div><!-- /.node -->
 
