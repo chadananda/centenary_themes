@@ -260,9 +260,9 @@ ul.links li.cg_term_delete a {
 .likelinks .ext {background:none; padding-right:0;}
 .likelinks div.fb-like {position:relative; top:-3px; background:white; min-width:150px; min-height:20px; }
 .likelinks div {margin-top:4px; display:inline-block;}
-.likelinks {float:right; width:320px; border: 1px solid #DEE6D8; border-radius: 6px; margin-left:19px; padding:0 12px 6px; }
+.likelinks {float:right; clear:right; width:320px; border: 1px solid #DEE6D8; border-radius: 6px; margin-left:19px; padding:0 12px 6px; }
 .field-field-overview, .node-body, .field-field-audio {clear:left;}
-.likelinks.top {width:360px; margin-bottom:8px; padding: 4px 6px 0; margin-right:0; float:left; height:24px;}
+.likelinks.top {width:360px; margin-bottom:8px; padding: 4px 6px 0; margin-right:0; float:left; height:24px; clear:left;}
 .likelinks.top div {margin:0; }
 .likelinks h2.title {font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif; margin-top:12px;}
 
