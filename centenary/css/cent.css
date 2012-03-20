@@ -656,6 +656,7 @@ ul.links li {
   padding: 5px 6px;
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
+.node-teaser .content {clear:none;}
 
 .node-teaser .centenary-node .field-field-main-image,
 .field-field-assets .centenary-node .field-field-main-image { margin:0; }
