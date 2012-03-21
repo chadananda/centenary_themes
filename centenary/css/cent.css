@@ -889,12 +889,12 @@ padding-top: 11px;
 .view-daily.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
 .view-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute;}
 
-.view-daily.view-display-id-page .attachment .view.view-daily {padding: 0 19px 19px; margin-bottom:19px; border-radius: 6px; border: 1px solid #dee6d8;}
+.view-daily.view-display-id-page .attachment .view.view-daily {padding: 0 19px 19px; margin-bottom:19px;}
 .view-daily.view-display-id-page .attachment .views-row {width:100%; height:auto; padding:9px 0; float:none }
 .view-daily.view-display-id-page .attachment .views-field-title {position:static; bottom:auto; text-align:left; width:auto;}
 .view-daily.view-display-id-page .attachment .views-field-title a {font-size:medium; background: none transparent; opacity:1; box-shadow:none; font-variant:normal;}
 .view-daily.view-display-id-page .attachment .views-field-field-main-image-fid img {height:auto; width:auto;}
-.view-daily h2.headline {font-size: 19px; font-variant: small-caps;}
+.view-daily h2.headline {font-size: 24px; font-variant: small-caps; border-radius: 12px; border: 1px solid #dee6d8; padding:5px 9px;}
 
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-row {padding:9px 12px;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-field-field-main-image-fid {float:left; margin-right:20px;}
