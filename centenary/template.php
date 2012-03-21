@@ -74,6 +74,10 @@ function centenary_theme(&$existing, $type, $theme, $path) {
   return $hooks;
 }
 
+
+
+
+
 /**
  * Override or insert variables into all templates.
  *
@@ -88,6 +92,14 @@ function centenary_preprocess(&$vars, $hook) {
 }
 // */
 
+
+function centenary_preprocess_html(&$vars) {
+  //if ($vars['title']) $vars['title'] = check_markup($vars['title']);
+  //$vars['title'] = "preprocess_html";
+}
+
+
+
 /**
  * Override or insert variables into the page templates.
  *
@@ -97,6 +109,10 @@ function centenary_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 function centenary_preprocess_page(&$vars, $hook) {
+ 
+  // run node titles through filter
+  if (module_exists('cg')) $vars['title'] = strip_tags(check_markup($vars['title'], 2));  
+
   //$vars['classes'] = implode(' ', $vars['classes_array']);
   if (is_object($vars['node'])) {
     $vars['node_class'] = $vars['node']->type;
@@ -119,12 +135,6 @@ function centenary_preprocess_node(&$vars, $hook) {
 
   // Optionally, run node-type-specific preprocess functions, like
   // centenary_preprocess_node_page() or centenary_preprocess_node_story().
-  /*
-  $function = __FUNCTION__ . '_' . $vars['node']->type;
-  if (function_exists($function)) {
-    $function($vars, $hook);
-  }
-  // */
  
   if (module_exists('token') && $vars['teaser']) {
     $vars['teaser_header'] = token_replace(variable_get("cg_teaserheader_{$vars['node']->type}", variable_get('cg_teaserheaders', '[type-name]: [title]')), 'node', $vars['node']);
