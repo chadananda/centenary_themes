@@ -882,12 +882,16 @@ padding-top: 11px;
 #block-views-city_list-block_2 {width:233px; float:left;}
 #block-views-city_list-block_3 {width:193px; float:left;}
 
+body.page-views.section-daily h1.title {text-align:center; font-size:16px;}
+.view-daily h1.headline {font-size:28px; text-align:center; font-variant:small-caps; margin-bottom:19px;}
+.view-daily .header-link {float:left; font-family:Georgia, "Times New Roman", serif;}
+.view-daily .header-link.next {float:right;}
 
 .view-daily.view-display-id-page .views-row {width:230px; height:200px; overflow:hidden; float:left; position:relative;}
 .view-daily.view-display-id-page .views-field-title a,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
 .view-daily.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
-.view-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute;}
+.view-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute; top:20px;}
 
 .view-daily.view-display-id-page .attachment .view.view-daily {margin-bottom:19px;}
 .view-daily.view-display-id-page .attachment .views-row {width:100%; height:auto; padding:9px 0; float:none }
