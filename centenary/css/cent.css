@@ -913,8 +913,11 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px;}
 .view-daily.view-display-id-page .attachment .view-daily.view-display-id-attachment_3 {position:relative; float:right; clear:right; width:230px; padding:0; margin-right:10px;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_2 h2.headline,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_3 h2.headline {font-size:19px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_2 .views-field-field-main-image-fid,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_3 .views-field-field-main-image-fid {float:left; margin-right:9px;}
 
-.view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 {position:relative; float:left; width:401px; border:none; margin-right:35px; margin-bottom:0; padding:0px 12px;}
+
+.view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 {position:relative; float:left; width:448px; border:none; margin-right:0; margin-bottom:0; padding:0px 12px 0 0;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-field-main-image-fid img {height:333px; width:396px;}
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title {line-height:28px;}
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title a {font-size:24px;}
