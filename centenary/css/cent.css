@@ -828,8 +828,9 @@ padding-top: 11px;
 #block-views-tagged_content-block_1 .view-content li,
 #block-views-tagged_content-block_2 .view-content li {
   padding:4px 0;
-  list-style: disc;
+  list-style: none;
 }
+#block-views-tagged_content-block_1 .view-content li {clear:left; position:relative;}
 
 #block-views-tagged_content-block_2 .view-content li {
   display:block;
