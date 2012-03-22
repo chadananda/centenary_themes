@@ -892,7 +892,9 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
 .view-daily.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
 .view-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute; top:20px;}
+.view-daily.view-display-id-page .view-empty {padding: 0px 40px; clear:left;}
 
+.view-daily.view-display-id-page .attachment .view-content {clear:none;}
 .view-daily.view-display-id-page .attachment .view.view-daily {margin-bottom:19px;}
 .view-daily.view-display-id-page .attachment .views-row {width:100%; height:auto; padding:9px 0; float:none }
 .view-daily.view-display-id-page .attachment .views-field-title {position:static; bottom:auto; text-align:left; width:auto;}
