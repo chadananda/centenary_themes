@@ -111,7 +111,7 @@ function centenary_preprocess_html(&$vars) {
 function centenary_preprocess_page(&$vars, $hook) {
  
   // run node titles through filter
-  if (module_exists('cg')) $vars['title'] = strip_tags(check_markup($vars['title'], 2));  
+  if (module_exists('cg')) $vars['title'] = strip_tags(check_markup($vars['title'], 1));  
 
   //$vars['classes'] = implode(' ', $vars['classes_array']);
   if (is_object($vars['node'])) {
