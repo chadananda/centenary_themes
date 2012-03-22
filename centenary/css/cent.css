@@ -849,14 +849,20 @@ padding-top: 11px;
   box-shadow: 2px 2px 3px lightgrey;
 }
 
-#block-views-tagged_content-block_2 .view-content li .views-field-title {
+#block-views-tagged_content-block_2 .view-content li .views-field-title,
+.view-daily.view-display-id-page .views-field-title,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title
+{
   position:absolute;
   bottom: 9px;
   line-height:14px;
   text-align:center;
   width:95%;
 }
-#block-views-tagged_content-block_2 .view-content li .views-field-title a {
+#block-views-tagged_content-block_2 .view-content li .views-field-title a,
+.view-daily.view-display-id-page .views-field-title a,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a
+{
   font-size:10px;
   border-radius:3px;
   font-weight:bold;
@@ -876,6 +882,36 @@ padding-top: 11px;
 #block-views-city_list-block_2 {width:233px; float:left;}
 #block-views-city_list-block_3 {width:193px; float:left;}
 
+
+.view-daily.view-display-id-page .views-row {width:230px; height:200px; overflow:hidden; float:left; position:relative;}
+.view-daily.view-display-id-page .views-field-title a,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
+.view-daily.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
+.view-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute;}
+
+.view-daily.view-display-id-page .attachment .view.view-daily {padding: 0 19px 19px; margin-bottom:19px; border-radius: 6px; border: 1px solid #dee6d8;}
+.view-daily.view-display-id-page .attachment .views-row {width:100%; height:auto; padding:9px 0; float:none }
+.view-daily.view-display-id-page .attachment .views-field-title {position:static; bottom:auto; text-align:left; width:auto;}
+.view-daily.view-display-id-page .attachment .views-field-title a {font-size:medium; background: none transparent; opacity:1; box-shadow:none; font-variant:normal;}
+.view-daily.view-display-id-page .attachment .views-field-field-main-image-fid img {height:auto; width:auto;}
+.view-daily h2.headline {font-size: 19px; font-variant: small-caps;}
+
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-row {padding:9px 12px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-field-field-main-image-fid {float:left; margin-right:20px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-field-title {font-style:italic;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-field-field-audio-fid {position:relative; height:auto; width: auto; top:7px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_1 .views-field-name {position:absolute; bottom:22px; right:60px; color:#A4AA9F; font-size:11px;}
+
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_2,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_3 {position:relative; float:right; clear:right; width:200px;}
+
+.view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 {position:relative; float:left; width:401px; height:400px; border:none; margin-right:19px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-field-main-image-fid img {height:333px; width:396px;}
+.view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title {line-height:28px;}
+.view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title a {font-size:24px;}
+#views_slideshow_singleframe_pager_daily-attachment_4 {position:absolute; top:40px; font-family: Century, "Times New Roman", serif; z-index:1000;}
+#views_slideshow_singleframe_pager_daily-attachment_4 .pager-item a {border-radius: 20px; border: 1px solid #dee6d8; display:inline-block; height:16px; width:16px; line-height:15px; text-align:center; font-size:11px;}
+#views_slideshow_singleframe_pager_daily-attachment_4 .pager-item.activeSlide a {background:lightgoldenrodyellow;}
 
 /* -------------------- news clippings ------------------- */
 .node-type-clip #content p {
