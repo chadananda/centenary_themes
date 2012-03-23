@@ -657,6 +657,9 @@ ul.links li {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
+.field-field-assets .centenary-node h2.title a,
+.node-teaser .centenary-node h2.title a { height:42px; overflow:hidden; display:block; }
+
 .node-teaser .centenary-node .field-field-main-image,
 .field-field-assets .centenary-node .field-field-main-image { margin:0; }
 
