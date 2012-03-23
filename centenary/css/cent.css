@@ -529,9 +529,20 @@ ul.links li {
   font-size:16px;
 }
 
-.field-field-overview {
-  font-size:14px;
-  line-height:1.3em;
+div.node.build-mode-full div.content .field-field-overview p {
+  font-size:14.5px;
+  margin:9px;
+  font-family:Georgia, "Times New Roman", serif !important;
+}
+
+#node-708 .field-field-overview p,
+.views-field-field-overview-value #node-708 p {font-size:16px !important; padding-top:17px;}
+
+#node-1248 .field-field-overview p {
+  font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif !important;
+  font-size:14px !important;
+  margin:12px 0 !important;
+  line-height:1.4em !important;
 }
 
 .views-field-title a {
@@ -549,7 +560,7 @@ ul.links li {
 
 .node.build-mode-full .field-field-main-image {
 	margin-right: 0px;
-	margin-top: -15px;
+  margin-top: 19px;
 }
 
 .field-field-large-photo {

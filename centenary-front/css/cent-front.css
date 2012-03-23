@@ -45,12 +45,24 @@ h1 {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color: #003359;
 	line-height: 1.2em;
-	margin-right: 350px;
+	margin-right: 25px;
 	margin-left: 25px;
+}
+
+#views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-title a { /*same as h2 ----*/
+  padding: 10px 27px 10px 0;
+  position: relative;
+  text-decoration: none;
+  background: url('../../centenary/images/title-bg.png') top right no-repeat;
 }
 
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-field-overview-value {
 	margin-left:25px;
+}
+#views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-field-overview-value p {
+  font-size:14.5px;
+  margin:9px;
+  font-family:Georgia, "Times New Roman", serif !important;
 }
 
 
@@ -59,7 +71,7 @@ h1 {
 	margin-right:15px;
 	margin-left: 15px;
 	margin-bottom: 10px;
-	margin-top: -25px;
+	margin-top: -45px;
 }
 
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-field-large-photo-fid {
