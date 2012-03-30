@@ -172,6 +172,21 @@ EOT;
     </div>
 EOT;
   }
+  if ($vars['node']->type == 'theme_overview') {
+    $search = array(
+      'imagecache/page-main-image/main_image/abdulbaha-overview-small_0.jpg',
+      'imagecache/page-main-image/main_image/Abdu%27l-Baha-True-Color.png',
+    );
+    $replace = array(
+      'imagecache/theme-image/main_image/abdulbaha-overview-small_0.jpg',
+      'imagecache/theme-image/main_image/Abdu%27l-Baha-True-Color.png'
+    );
+    $count = 0;
+    $vars['content'] = str_replace($search, $replace, $vars['content'], $count);
+    if ($count) {
+      $vars['content'] = str_replace('width="264" height="222"', '', $vars['content']);
+    }
+  }
 }
 // */
 
