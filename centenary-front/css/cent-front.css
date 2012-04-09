@@ -49,6 +49,10 @@ h1 {
 	margin-left: 25px;
 }
 
+#views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-title .node-710 {
+  font-size:21px;
+}
+
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-title a { /*same as h2 ----*/
   padding: 10px 27px 10px 0;
   position: relative;
