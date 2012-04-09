@@ -146,6 +146,7 @@ a:active {
 	background-image:url(../images/main-back.png);
 	background-repeat:repeat-x;
 	padding-top: 20px;
+  display:block;
 }
 
 #content, .no-sidebars #content, .two-sidebars #content {

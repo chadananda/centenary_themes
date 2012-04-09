@@ -3,13 +3,19 @@
 
 #header {
 	height: 182px;
+  width: 960px;
 	background-color: transparent !important;
 	position:relative;
 	z-index: 5;
 }
 
+ul#main-menu {
+  min-height:100px;
+}
+
 #main {
 	padding-top: 5px;
+  min-height:100px;
 }
 
 #content {
@@ -34,7 +40,7 @@ h1 {
 
 /* ----- home page slideshow  ------------------------------------------------ */
 
-#views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 { position:relative; }
+#views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 { position:relative; display:block; max-width:734px; overflow:hidden;}
 
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-title { /*same as h2 ----*/
 	  font-size: 1.8em;
