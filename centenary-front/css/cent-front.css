@@ -90,7 +90,7 @@ h1 {
   zoom: 1;
 }
 
-.views-field-nothing {
+.views-field-nothing, .views-field-view-node {
   position:absolute;
   left:370px;
   top:211px;
