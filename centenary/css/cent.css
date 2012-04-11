@@ -334,6 +334,19 @@ ul.links li.cg_term_delete a {
 	margin-right:100px;
 }
 
+#block-block-8 span.ext {display:none;}
+.twitter-follow-header {
+  font-weight:bold;
+  font-family:Verdana;
+  font-size:12px;
+  background: #d3dcd6;
+  color:#333;
+  padding-left:10px;
+  margin-bottom:9px;
+  line-height:32px;
+}
+.twitter-follow-box {margin:0 auto; text-align:center; margin-bottom:24px;}
+
 #block-block-6 {clear:right; margin-left:192px;}
 #block-block-6 .block { /*  get involved and resources blocks */
     background-color: #003359;
