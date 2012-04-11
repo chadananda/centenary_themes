@@ -282,7 +282,7 @@ ul.links li.cg_term_delete a {
 .view-id-talk_navigation { width:41%; padding-right:9%; }
 .view-id-talk_navigation.view-display-id-block_1 { float:right; padding-right:0; padding-left:9px; text-align:right; }
 
-#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-views-daily-block_1, #block-block-2, #block-block-3, #block-block-4, #block-block-7  { /* this is the set of three blocks */
+#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-views-daily-block_1, #block-block-2, #block-block-3, #block-block-4  { /* this is the set of three blocks */
 	width: 235px;
 	margin: 9px;
 	margin-right:0px;
@@ -334,7 +334,7 @@ ul.links li.cg_term_delete a {
 	margin-right:100px;
 }
 
-#block-block-8 span.ext {display:none;}
+#block-block-7 span.ext {display:none;}
 .twitter-follow-header {
   font-weight:bold;
   font-family:Verdana;
