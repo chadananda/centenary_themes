@@ -282,12 +282,12 @@ ul.links li.cg_term_delete a {
 .view-id-talk_navigation { width:41%; padding-right:9%; }
 .view-id-talk_navigation.view-display-id-block_1 { float:right; padding-right:0; padding-left:9px; text-align:right; }
 
-#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-block-2, #block-block-3, #block-block-4  { /* this is the set of three blocks */
+#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-views-daily-block_1, #block-block-2, #block-block-3, #block-block-4, #block-block-7  { /* this is the set of three blocks */
 	width: 235px;
 	margin: 9px;
 	margin-right:0px;
 	border-right: 1px solid #000;
-	float:left;
+	float:right;
 	padding-right: 9px;
 	min-height: 200px;
 	margin-bottom:20px;
@@ -334,21 +334,22 @@ ul.links li.cg_term_delete a {
 	margin-right:100px;
 }
 
-
-
+#block-block-6 {clear:right; margin-left:192px;}
 #block-block-6 .block { /*  get involved and resources blocks */
     background-color: #003359;
     border-right: 0 solid #000000;
     left: 0;
     margin-bottom: 0;
+    margin-right: 9px;
     margin-left: 0;
     min-height: 50px;
-    padding: 5px 5px 0 0;
-    width: 155px;
+    padding: 5px 5px 0 5px;
+    width: 134px;
     overflow:hidden;
     height:80px;
     margin-top:19px;
     position:relative;
+    float:left;
 }
 #block-block-6 .block h2 /*  get involved and resources headline */
 {
@@ -362,6 +363,63 @@ ul.links li.cg_term_delete a {
 }
 #block-block-6 .block h2 a { color:white; }
 #block-block-6 .block .content { height:54px; position:relative; overflow:hidden; }
+
+#block-views-daily-block_1 .content {
+  background: url(../images/newspaper.png) no-repeat top left;
+  width:226px;
+  margin-left:9px;
+  height:155px;
+  font-family:Georgia,"Times New Roman",Times,serif;
+  padding-top:9px;
+  position:relative;
+}
+#block-views-daily-block_1 .content .view-content,
+#block-views-daily-block_1 .content .view-empty {
+  height: 83px;
+  overflow: hidden;
+  padding-left: 26px;
+  width: 159px;
+  padding-top:7px;
+}
+#block-views-daily-block_1 .content .views-field-title {
+  font-size:10px;
+  font-variant:small-caps;
+  line-height:11px;
+  max-height: 55px;
+  overflow: hidden;
+  background:white;
+}
+#block-views-daily-block_1 .content .views-field-field-main-image-fid {
+  float:left;
+  margin-right:9px;
+}
+#block-views-daily-block_1 .content .more-link {
+  position:absolute;
+  bottom:29px;
+  right:43px;
+  font-size:10px;
+  font-weight:bold;
+  text-decoration:underline;
+}
+a.daily-centenarian-link {
+  display:block;
+  width:165px;
+  margin:0 0 0 26px;
+  font-size:10px;
+  line-height:10px;
+  text-align:center;
+  font-weight:bold;
+}
+a.daily-centenarian-link span.daily-headline {
+  display:block;
+  font-family:Georgia,"Times New Roman",Times,serif;
+  font-size:13px;
+  font-variant:small-caps;
+  line-height:12px;
+  padding-top:12px;
+  margin-bottom:4px;
+  font-style:italic;
+}
 
 #block-masquerade-0 {
 	width: 155px;
