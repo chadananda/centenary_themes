@@ -334,7 +334,7 @@ ul.links li.cg_term_delete a {
 	margin-right:100px;
 }
 
-#block-block-7 span.ext {display:none;}
+#block-block-7 span.ext { display:none; }
 .twitter-follow-header {
   font-weight:bold;
   font-family:Verdana;
@@ -344,6 +344,7 @@ ul.links li.cg_term_delete a {
   padding-left:10px;
   margin-bottom:9px;
   line-height:32px;
+  height:32px;
 }
 .twitter-follow-box {margin:0 auto; text-align:center; margin-bottom:24px;}
 
@@ -418,8 +419,6 @@ a.daily-centenarian-link {
   display:block;
   width:192px;
   margin:0 0 0 12px;
-  font-size:10px;
-  line-height:10px;
   text-align:center;
   font-weight:bold;
 }
@@ -430,6 +429,7 @@ a.daily-centenarian-link span.daily-headline {
   font-variant:small-caps;
   line-height:12px;
   padding-top:12px;
+  margin-top:9px;
   margin-bottom:4px;
   font-style:italic;
 }
