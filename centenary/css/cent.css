@@ -1006,6 +1006,9 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_3 h2.headline {font-size:19px;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_2 .views-field-field-main-image-fid,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_3 .views-field-field-main-image-fid {float:left; margin-right:9px;}
+.view-daily .views-field-sticky {position:absolute; top:20px; right:20px;}
+.view-daily .views-field-sticky div {display:none;}
+body.logged-in .view-daily .views-field-sticky .node-sticky-Yes {background: url(../images/map-pin-red.png) transparent no-repeat;}
 
 
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 {position:relative; float:left; width:448px; border:none; margin-right:0; margin-bottom:0; padding:0px 12px 0 0;}
