@@ -257,6 +257,8 @@ ul.links li.cg_term_delete a {
   width: 14px;
 }
 
+#secondary-menu { width:100%; }
+
 /* like and share buttons ---------------------------------------------------------------------*/
 .likelinks .ext {background:none; padding-right:0;}
 .likelinks div.fb-like {position:relative; top:-3px; background:white; min-width:150px; min-height:20px; }
@@ -334,7 +336,7 @@ ul.links li.cg_term_delete a {
 	margin-right:100px;
 }
 
-#block-block-7 span.ext { display:none; }
+#block-block-7 span.ext { display:none; width:0; height:0;}
 .twitter-follow-header {
   font-weight:bold;
   font-family:Verdana;
@@ -353,15 +355,12 @@ ul.links li.cg_term_delete a {
     background-color: #003359;
     border-right: 0 solid #000000;
     left: 0;
-    margin-bottom: 0;
-    margin-right: 9px;
-    margin-left: 0;
+    margin: 0 9px 12px 0;
     min-height: 50px;
     padding: 5px 5px 0 5px;
     width: 134px;
     overflow:hidden;
     height:80px;
-    margin-top:19px;
     position:relative;
     float:left;
 }
@@ -536,14 +535,15 @@ a.daily-centenarian-link span.daily-headline {
 	padding-left: 0px;
 	background-image: url(../images/bahai-us-icon.png);
 	background-repeat:no-repeat;
-	margin-top: -7px;
 	width:168px;
 	height:26px;
-	display:block;
-	float:right;
 	color: #003359 !important;
 	font-size: 9px;
+  position:absolute;
+  top:-7px;
+  right:-168px;
 }
+#secondary-menu { width:792px; position:absolute; left:0; }
 
 #footer a.sitelink:hover {
 	background-image: url(../images/bahai-us-icon-hover.png);
@@ -579,7 +579,7 @@ ul.links li {
 	padding: 0px;
 }
 
-#footer span.ext { display:none; }
+#footer span.ext { display:none; height:0; width:0; }
 
 
 /* ----- theme page content ------------------------------------------------ */
