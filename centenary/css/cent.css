@@ -277,7 +277,7 @@ ul.links li.cg_term_delete a {
 #after_content_bottom {
 	background-color: transparent !important;
 	position:relative;
-	clear:both;
+	clear:right;
 	margin-bottom: 25px;
 }
 
@@ -298,7 +298,6 @@ ul.links li.cg_term_delete a {
 
 #block-block-2 { /* this is the map --- */
 	padding-left: 10px;
-	margin-left: 179px;
 }
 
 #block-block-2 h2.title {
@@ -404,7 +403,12 @@ ul.links li.cg_term_delete a {
 }
 #block-views-daily-block_1 .content .views-field-field-main-image-fid {
   float:left;
-  margin-right:9px;
+  padding-right:9px;
+  background:white;
+}
+#block-views-daily-block_1 .content .views-field-field-main-image-fid img {
+  border-top-left-radius:6px 15px;
+  border-bottom-left-radius:8px 28px;
 }
 #block-views-daily-block_1 .content .more-link {
   position:absolute;
