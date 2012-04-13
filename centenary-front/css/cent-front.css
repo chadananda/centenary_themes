@@ -97,6 +97,7 @@ h1 {
   font-size:20px;
   font-family:Georgia, "Times New Roman", serif;
 }
+#block-views-daily-block_1 .views-field-nothing {position:static; left:auto; top:auto;}
 
 #views_slideshow_singleframe_main_home_page_overview_slideshow-page_1 .views-field-field-large-photo-fid {
 	z-index:1;
