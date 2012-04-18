@@ -376,24 +376,28 @@ ul.links li.cg_term_delete a {
 #block-block-6 .block h2 a { color:white; }
 #block-block-6 .block .content { height:54px; position:relative; overflow:hidden; }
 
-#block-views-daily-block_1 .content {
+.view-id-daily.view-display-id-block_1 {
   background: url(../images/newspaper.png) no-repeat top left;
-  width:226px;
+  width:224px;
   margin-left:9px;
   height:155px;
   font-family:Georgia,"Times New Roman",Times,serif;
   padding-top:9px;
   position:relative;
+  float:left;
 }
-#block-views-daily-block_1 .content .view-content,
-#block-views-daily-block_1 .content .view-empty {
+#block-views-daily-block_1 .view-id-daily.view-display-id-block_1 {
+  float:none;
+}
+.view-id-daily.view-display-id-block_1 .view-content,
+.view-id-daily.view-display-id-block_1 .view-empty {
   height: 83px;
   overflow: hidden;
   padding-left: 26px;
   width: 159px;
   padding-top:7px;
 }
-#block-views-daily-block_1 .content .views-field-title {
+.view-id-daily.view-display-id-block_1 .views-field-title {
   font-size:10px;
   font-variant:small-caps;
   line-height:11px;
@@ -401,16 +405,16 @@ ul.links li.cg_term_delete a {
   overflow: hidden;
   background:white;
 }
-#block-views-daily-block_1 .content .views-field-field-main-image-fid {
+.view-id-daily.view-display-id-block_1 .views-field-field-main-image-fid {
   float:left;
   padding-right:9px;
   background:white;
 }
-#block-views-daily-block_1 .content .views-field-field-main-image-fid img {
+.view-id-daily.view-display-id-block_1 .views-field-field-main-image-fid img {
   border-top-left-radius:6px 15px;
   border-bottom-left-radius:8px 28px;
 }
-#block-views-daily-block_1 .content .more-link {
+.view-id-daily.view-display-id-block_1 .more-link {
   position:absolute;
   bottom:29px;
   right:43px;
@@ -436,6 +440,11 @@ a.daily-centenarian-link span.daily-headline {
   margin-bottom:4px;
   font-style:italic;
 }
+.daily-archive-link {float:right;text-align:right;}
+.daily-archive-link.prev {text-align:left; float:left;}
+body.section-daily-archive h1.title {text-align:center;padding-bottom:9px; border-bottom:1px gray double; margin-bottom:9px;}
+.daily-archive-month-links {width:100%; text-align:center;}
+.daily-archive-month-links a {margin: 0 5px;}
 
 #block-masquerade-0 {
 	width: 155px;
