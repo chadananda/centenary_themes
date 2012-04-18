@@ -128,3 +128,46 @@ h1 {
 
 div#after_content_bottom {clear:right;}
 div#block-block-2 {margin-left:9px;}
+
+#block-views-daily-block_1 .content {
+  background: url(../../centenary/images/newspaper.png) no-repeat top left;
+  width:224px;
+  margin-left:9px;
+  height:155px;
+  font-family:Georgia,"Times New Roman",Times,serif;
+  padding-top:9px;
+  position:relative;
+}
+#block-views-daily-block_1 .content .view-content,
+#block-views-daily-block_1 .content .view-empty {
+  height: 83px;
+  overflow: hidden;
+  padding-left: 26px;
+  width: 159px;
+  padding-top:7px;
+}
+#block-views-daily-block_1 .content .views-field-title {
+  font-size:10px;
+  font-variant:small-caps;
+  line-height:11px;
+  max-height: 55px;
+  overflow: hidden;
+  background:white;
+}
+#block-views-daily-block_1 .content .views-field-field-main-image-fid {
+  float:left;
+  padding-right:9px;
+  background:white;
+}
+#block-views-daily-block_1 .content .views-field-field-main-image-fid img {
+  border-top-left-radius:6px 15px;
+  border-bottom-left-radius:8px 28px;
+}
+#block-views-daily-block_1 .content .more-link {
+  position:absolute;
+  bottom:29px;
+  right:43px;
+  font-size:10px;
+  font-weight:bold;
+  text-decoration:underline;
+}
