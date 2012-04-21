@@ -440,7 +440,7 @@ a.daily-centenarian-link span.daily-headline {
   margin-bottom:4px;
   font-style:italic;
 }
-.daily-archive-link {float:right;text-align:right;}
+.daily-archive-link {float:right;text-align:right; position:absolute;}
 .daily-archive-link.prev {text-align:left; float:left;}
 body.section-daily-archive h1.title {text-align:center;padding-bottom:9px; border-bottom:1px gray double; margin-bottom:9px;}
 .daily-archive-month-links {width:100%; text-align:center;}
