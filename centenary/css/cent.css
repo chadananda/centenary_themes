@@ -440,8 +440,9 @@ a.daily-centenarian-link span.daily-headline {
   margin-bottom:4px;
   font-style:italic;
 }
-.daily-archive-link {float:right;text-align:right; position:absolute;}
-.daily-archive-link.prev {text-align:left; float:left;}
+.daily-archive-nav-links {position:relative;}
+.daily-archive-link {position:absolute; right:0;}
+.daily-archive-link.prev {left:0;}
 body.section-daily-archive h1.title {text-align:center;padding-bottom:9px; border-bottom:1px gray double; margin-bottom:9px;}
 .daily-archive-month-links {width:100%; text-align:center;}
 .daily-archive-month-links a {margin: 0 5px;}
