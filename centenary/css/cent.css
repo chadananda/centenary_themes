@@ -444,7 +444,7 @@ a.daily-centenarian-link span.daily-headline {
 .daily-archive-link {position:absolute; right:0;}
 .daily-archive-link.prev {left:0;}
 body.section-daily-archive h1.title {text-align:center;padding-bottom:9px; border-bottom:1px gray double; margin-bottom:9px;}
-.daily-archive-month-links {width:100%; text-align:center;}
+.daily-archive-month-links {width:100%; text-align:center; position:relative; z-index:5;}
 .daily-archive-month-links a {margin: 0 5px;}
 
 #block-masquerade-0 {
