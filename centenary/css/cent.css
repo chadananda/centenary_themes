@@ -404,6 +404,7 @@ ul.links li.cg_term_delete a {
   max-height: 55px;
   overflow: hidden;
   background:white;
+  text-align:left;
 }
 .view-id-daily.view-display-id-block_1 .views-field-field-main-image-fid {
   float:left;
@@ -1059,7 +1060,7 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 .view-front-weekly #views_slideshow_singleframe_pager_front_weekly-page_1 {top:0px;}
 #views_slideshow_singleframe_main_front_weekly-page_1 {margin-top:24px;}
 .view-front-weekly .view-id-daily.view-display-id-block_1 .more-link {bottom:12px; right:0px;}
-.view-front-weekly .front-weekly-center-right {float:right; clear:right; width:300px;}
+.view-front-weekly .front-weekly-center-right {float:right; clear:right; width:300px; text-align:center;}
 .view-front-weekly p {font-size:15px;}
 .view-front-weekly .view-daily {margin-left:40px;}
 
