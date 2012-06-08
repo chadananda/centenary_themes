@@ -1054,7 +1054,7 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 #views_slideshow_singleframe_pager_daily-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_weekly-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_front_weekly-page_1 .pager-item a {border-radius: 20px; border: 1px solid #dee6d8; display:inline-block; height:16px; width:16px; line-height:15px; text-align:center; font-size:11px;}
 #views_slideshow_singleframe_pager_daily-attachment_4 .pager-item.activeSlide a, #views_slideshow_singleframe_pager_weekly-attachment_4 .pager-item.activeSlide a, #views_slideshow_singleframe_pager_front_weekly-page_1 .pager-item.activeSlide a {background:lightgoldenrodyellow;}
 
-.view-front-weekly .views-content {position:relative;}
+.view-front-weekly .view-content {position:relative;}
 .view-front-weekly .views-field-field-audio-fid {top:20px;}
 .view-front-weekly #views_slideshow_singleframe_pager_front_weekly-page_1 {top:0px;}
 #views_slideshow_singleframe_main_front_weekly-page_1 {margin-top:24px;}
