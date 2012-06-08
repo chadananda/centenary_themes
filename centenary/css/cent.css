@@ -959,7 +959,7 @@ padding-top: 11px;
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title
 .view-weekly.view-display-id-page .views-field-title,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title,
-.view-front-weekly.view-display-id-page_1 .views-field-title
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title
 {
   position:absolute;
   bottom: 9px;
@@ -972,7 +972,7 @@ padding-top: 11px;
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a
 .view-weekly.view-display-id-page .views-field-title a,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a,
-.view-front-weekly.view-display-id-page_1 .views-field-title a
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title a
 {
   font-size:10px;
   border-radius:3px;
@@ -1003,7 +1003,7 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 .view-daily.view-display-id-page .views-field-title a, .view-weekly.view-display-id-page .views-field-title a,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a, 
   .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a,
-  #views_slideshow_singleframe_front_weekly-page_1 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
+  #views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
 .view-daily.view-display-id-page .views-field-field-main-image-fid img, .view-weekly.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
 .view-daily .views-field-field-audio-fid, .view-weekly .views-field-field-audio-fid, .view-front-weekly .views-field-field-audio-fid  {height:30px; width:30px; overflow:hidden; position:absolute; top:20px;}
 .view-daily.view-display-id-page .view-empty, .view-weekly.view-display-id-page .view-empty {padding: 0px 40px; clear:left;}
@@ -1042,13 +1042,13 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4,
 .view-weekly.view-display-id-page .attachment .view.view-weekly.view-display-id-attachment_4 {position:relative; float:left; width:448px; border:none; margin-right:0; margin-bottom:0; padding:0px 12px 0 0;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-field-main-image-fid img,
-#views_slideshow_singleframe_front_weekly-page_1 .views-field-field-main-image-fid img,
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-field-main-image-fid img,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-field-main-image-fid img {height:333px; width:396px;}
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title,
-#views_slideshow_singleframe_front_weekly-page_1 .views-field-title,
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title,
 .view-weekly.view-display-id-page .attachment .view.view-weekly.view-display-id-attachment_4 .views-field-title {line-height:28px;}
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4 .views-field-title a,
-#views_slideshow_singleframe_front_weekly-page_1 .views-field-title a,
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title a,
 .view-weekly.view-display-id-page .attachment .view.view-weekly.view-display-id-attachment_4 .views-field-title a {font-size:24px;}
 #views_slideshow_singleframe_pager_daily-attachment_4, #views_slideshow_singleframe_pager_weekly-attachment_4, #views_slideshow_singleframe_pager_front_weekly-page_1 {position:absolute; top:48px; font-family: Century, "Times New Roman", serif; z-index:1000;}
 #views_slideshow_singleframe_pager_daily-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_weekly-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_front_weekly-page_1 .pager-item a {border-radius: 20px; border: 1px solid #dee6d8; display:inline-block; height:16px; width:16px; line-height:15px; text-align:center; font-size:11px;}
