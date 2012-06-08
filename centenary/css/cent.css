@@ -1063,6 +1063,9 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 .view-front-weekly .front-weekly-center-right {float:right; clear:right; width:300px; text-align:center;}
 .view-front-weekly p {font-size:15px;}
 .view-front-weekly .view-daily {margin-left:40px;}
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title {line-height:21px; margin-left:7px; opacity:0.7; padding:9px; bottom:32px; background:black;}
+#views_slideshow_singleframe_main_front_weekly-page_1 .views-field-title a {color:wheat; font-size:16px; background:none; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none;}
+
 
 .view-weekly.view-display-id-page .attachment .view-header,
 .view-weekly.view-display-id-page .attachment .view-header,
