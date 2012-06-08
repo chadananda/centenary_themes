@@ -1001,9 +1001,11 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 
 .view-daily.view-display-id-page .views-row, .view-weekly.view-display-id-page .views-row {width:230px; height:200px; overflow:hidden; float:left; position:relative;}
 .view-daily.view-display-id-page .views-field-title a, .view-weekly.view-display-id-page .views-field-title a,
-.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a, .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a, 
+  .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a,
+  .view-front-weekly.view-display-id-page_1 .views-field-title a {font-size:12px; font-family: Georgia, Serif; font-variant:small-caps;}
 .view-daily.view-display-id-page .views-field-field-main-image-fid img, .view-weekly.view-display-id-page .views-field-field-main-image-fid img {height:178px; width:211px;}
-.view-daily .views-field-field-audio-fid, .view-weekly .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute; top:20px;}
+.view-daily .views-field-field-audio-fid, .view-weekly .views-field-field-audio-fid, .view-front-daily .views-field-field-audio-fid {height:30px; width:30px; overflow:hidden; position:absolute; top:20px;}
 .view-daily.view-display-id-page .view-empty, .view-weekly.view-display-id-page .view-empty {padding: 0px 40px; clear:left;}
 
 .view-daily.view-display-id-page .attachment .view-content, .view-weekly.view-display-id-page .attachment .view-content {clear:none;}
@@ -1051,6 +1053,8 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 #views_slideshow_singleframe_pager_daily-attachment_4, #views_slideshow_singleframe_pager_weekly-attachment_4, #views_slideshow_singleframe_pager_front_weekly-page_1 {position:absolute; top:48px; font-family: Century, "Times New Roman", serif; z-index:1000;}
 #views_slideshow_singleframe_pager_daily-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_weekly-attachment_4 .pager-item a, #views_slideshow_singleframe_pager_front_weekly-page_1 .pager-item a {border-radius: 20px; border: 1px solid #dee6d8; display:inline-block; height:16px; width:16px; line-height:15px; text-align:center; font-size:11px;}
 #views_slideshow_singleframe_pager_daily-attachment_4 .pager-item.activeSlide a, #views_slideshow_singleframe_pager_weekly-attachment_4 .pager-item.activeSlide a, #views_slideshow_singleframe_pager_front_weekly-page_1 .pager-item.activeSlide a {background:lightgoldenrodyellow;}
+
+.view-front-weekly {position:relative;}
 
 .view-weekly.view-display-id-page .attachment .view-header,
 .view-weekly.view-display-id-page .attachment .view-header,
