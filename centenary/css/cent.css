@@ -1056,7 +1056,8 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 
 .view-front-weekly {position:relative;}
 .view-front-weekly .views-field-field-audio-fid {top:20px;}
-.view-front-weekly #views_slideshow_singleframe_pager_front_weekly-page_1 {top:24px;}
+.view-front-weekly #views_slideshow_singleframe_pager_front_weekly-page_1 {top:9px;}
+#views_slideshow_singleframe_main_front_weekly-page_1 {margin-top:24px;}
 
 .view-weekly.view-display-id-page .attachment .view-header,
 .view-weekly.view-display-id-page .attachment .view-header,
