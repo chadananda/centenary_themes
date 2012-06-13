@@ -1101,7 +1101,7 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .view-header,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .view-content {border:none;}
 
-
+#block-cg-0 {height:48px;margin:0;}
 #daily-ticker {height:48px; width:100%; overflow:hidden; font-family:courier, monospace; font-size:12px; float:left;}
 #daily-ticker .slide {height:48px; line-height:15px; width:100%;}
 #daily-ticker .slide a {color:gray;}
