@@ -1104,8 +1104,8 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 
 #daily-ticker {height:28px; width:960px; overflow:hidden; font-family:courier, monospace; font-size:11px; position:absolute; top:1px; left:8px;}
 #daily-ticker .slide {line-height:28px; height:28px;}
-#daily-ticker .slide a:link {color:gray;}
-#daily-ticker .slide a:hover {color:#0066a4;text-decoration:underline;}
+#daily-ticker .slide a {color:gray;}
+#daily-ticker .slide a:hover {color:#35a4e7;text-decoration:underline;}
 
 
 /* -------------------- news clippings ------------------- */
