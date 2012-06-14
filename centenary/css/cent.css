@@ -1000,6 +1000,11 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 .view-daily .header-link, .view-weekly .header-link {float:left; font-family:Georgia, "Times New Roman", serif;}
 .view-daily .header-link.next, .view-weekly .header-link.next {float:right;}
 
+.daily-navlinks {position:absolute;right:52px;top:109px;height:24px;width:100px;}
+.daily-navlinks a {display:block;float:left;height:24px;width:24px;overflow:hidden;text-indent:-9999px;background:url("../images/daily-icons.png") top left;margin-left:9px;}
+.daily-navlinks a.daily-archive {background-position: -24px 0;}
+.daily-navlinks a.daily-rss {background-position:-48px 0;}
+
 .view-daily.view-display-id-page .views-row, .view-weekly.view-display-id-page .views-row {width:230px; height:200px; overflow:hidden; float:left; position:relative;}
 .view-daily.view-display-id-page .views-field-title a, .view-weekly.view-display-id-page .views-field-title a,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-title a, 
