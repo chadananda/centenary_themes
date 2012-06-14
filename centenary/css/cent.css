@@ -1107,9 +1107,11 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .view-content {border:none;}
 
 #block-cg-0 {height:48px;margin:0;}
-#daily-ticker {height:48px; width:100%; overflow:hidden; font-family:courier, monospace; font-size:12px; float:left;}
-#daily-ticker .slide {height:48px; line-height:15px; width:100%;}
-#daily-ticker .slide a {color:gray; display:table-cell; vertical-align:middle;}
+#daily-ticker {height:56px; width:682px; overflow:hidden; font-family:courier, monospace; font-size:12px; float:left;
+              border:1px dashed lightgray; background:lightgoldenrodyellow; margin:6px 9px 9px; border-radius:9px;
+              -moz-border-radius:9px; -webkit-border-radius:9px; -o-border-radius:9px;}
+#daily-ticker .slide {height:48px; line-height:15px; width:664px;padding:0 9px;}
+#daily-ticker .slide a {color:gray; display:table-cell; vertical-align:middle; height:56px;}
 #daily-ticker .slide a:hover {color:#35a4e7;text-decoration:underline;}
 #daily-ticker img {float:left; height:40px; width:40px; margin-right:8px;}
 #daily-ticker span.ticker-daily-link {font-family:georgia, serif;font-variant:small-caps;font-weight:bold;}
