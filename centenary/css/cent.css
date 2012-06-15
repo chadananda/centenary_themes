@@ -1052,6 +1052,8 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in .view-weekly .views-field-sticky .node-sticky-Yes {display:block; height:50px; width:50px; background: url(../images/map-pin-red.png) transparent no-repeat;}
 
 
+.view-weekly.view-display-id-page .attachment .view-weekly.view-display-id-attachment_5,
+.view-daily.view-display-id-page .attachment .view-daily.view-display-id-attachment_5,
 .view-daily.view-display-id-page .attachment .view.view-daily.view-display-id-attachment_4,
 .view-weekly.view-display-id-page .attachment .view.view-weekly.view-display-id-attachment_4 {position:relative; float:left; width:448px; border:none; margin-right:0; margin-bottom:0; padding:0px 12px 0 0;}
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .views-field-field-main-image-fid img,
@@ -1108,10 +1110,19 @@ body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in 
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
 }
+.view-weekly.view-display-id-page .attachment .view-display-id-attachment_5 .view-header,
+.view-weekly.view-display-id-page .attachment .view-display-id-attachment_5 .view-content,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 .view-header,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 .view-content,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .view-header,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_4 .view-content,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .view-header,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_4 .view-content {border:none;}
+
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 .view-header {padding:28px 0 0 19px;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 h2.headline {color:gray; font-size:18px; font-style:italic;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 .views-field-title a {font-weight:normal; font-size:13px; font-style:italic;}
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_5 .views-field-edit-node {display:block; float:right; margin-left:9px;}
 
 #block-cg-0 {height:48px;margin:0;}
 #daily-ticker {height:56px; width:682px; overflow:hidden; font-family:courier, monospace; font-size:12px; float:left;
