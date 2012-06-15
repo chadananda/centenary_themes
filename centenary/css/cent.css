@@ -164,6 +164,8 @@ a:active {
 	z-index: 5 !important;
 }
 
+#content-area {clear:left;}
+
 #content-top-shadow {
 	float:right;
 	width:760px;
