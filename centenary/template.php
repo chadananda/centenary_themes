@@ -110,6 +110,9 @@ function centenary_preprocess_html(&$vars) {
  */
 function centenary_preprocess_page(&$vars, $hook) {
  
+  if ($vars['is_front']) {
+    $vars['logo'] = str_replace('centenary_logo.png', 'centenary-front_logo.png', $vars['logo']);
+  }
   // run node titles through filter
   if (module_exists('cg')) $vars['title'] = cg_clean_bahai_title($vars['title']); 
   //strip_tags(check_markup($vars['title'], 2));  
