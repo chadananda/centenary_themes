@@ -1008,7 +1008,7 @@ padding-top: 11px;
 
 body.page-views.section-daily h1.title {text-align:center; font-size:16px; padding-top:12px; border-top:double;}
 .view-daily h1.headline, .view-weekly h1.headline {font-size:28px; text-align:center; font-variant:small-caps; margin-bottom:19px; padding-bottom:12px; border-bottom:double;}
-.view-daily .header-link, .view-weekly .header-link {float:left; font-family:Georgia, "Times New Roman", serif;}
+.view-daily .header-link, .view-weekly .header-link {float:left; font-family:Georgia, "Times New Roman", serif; position:relative; top:-26px;}
 .view-daily .header-link.next, .view-weekly .header-link.next {float:right;}
 
 .daily-navlinks {position:absolute;right:52px;top:109px;height:24px;width:100px;}
