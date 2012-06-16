@@ -986,6 +986,10 @@ padding-top: 11px;
   box-shadow: 2px 4px 6px grey;
 }
 
+
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_2 .views-row,
+.view-daily.view-display-id-page .attachment .view-display-id-attachment_3 .views-row {clear:both;}
+
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_2 .views-field-title a,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_3 .views-field-title a,
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_2 .views-field-title a,
