@@ -1209,3 +1209,5 @@ body.page.front #main {
 body.page.front .region-navigation {
   margin:28px 0;
 }
+
+body.page.front #block-menu-menu-assets {top:166px;}
