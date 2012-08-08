@@ -1051,10 +1051,26 @@ body.page-views.section-daily h1.title {text-align:center; font-size:16px; paddi
 .view-weekly.view-display-id-page .attachment .view-display-id-attachment_3 .views-field-field-main-image-fid,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_2 .views-field-field-main-image-fid,
 .view-daily.view-display-id-page .attachment .view-display-id-attachment_3 .views-field-field-main-image-fid {float:left; margin-right:9px;}
-.view-daily .views-field-sticky, .view-weekly .views-field-sticky {position:absolute; top:20px; right:20px;}
+.view-daily .views-field-sticky, .view-weekly .views-field-sticky {position:absolute; top:7px; right:40px;}
+.view-daily .views-field-promote, .view-weekly .views-field-promote {position:absolute; top:7px; right:20px;}
+.view-daily .view-display-id-attachment_2 .views-field-sticky,
+.view-weekly .view-display-id-attachment_2 .views-field-sticky {top:6px; right:-40px;}
+.view-daily .view-display-id-attachment_2 .views-field-promote,
+.view-weekly .view-display-id-attachment_2 .views-field-promote {top:26px; right:-40px;}
+.view-daily .views-field-promote div, .view-weekly .views-field-promote div,
 .view-daily .views-field-sticky div, .view-weekly .views-field-sticky div {display:none;}
-body.logged-in .view-daily .views-field-sticky .node-sticky-Yes, body.logged-in .view-weekly .views-field-sticky .node-sticky-Yes {display:block; height:50px; width:50px; background: url(../images/map-pin-red.png) transparent no-repeat;}
+body.logged-in .view-daily .views-field-sticky div,
+body.logged-in .view-daily .views-field-promote div,
+body.logged-in .view-weekly .views-field-sticky div,
+body.logged-in .view-weekly .views-field-promote div {
+  display:block; height:18px; width:18px; background-position:-3px -3px; cursor:pointer;
+  background: url(../images/flag-grey-small.png) transparent no-repeat;
+}
 
+body.logged-in .view-daily .views-field-sticky div.Yes,
+body.logged-in .view-weekly .views-field-sticky div.Yes {background: url(../images/flag-red-small.png) transparent no-repeat;}
+body.logged-in .view-daily .views-field-promote div.Yes,
+body.logged-in .view-weekly .views-field-promote div.Yes {background: url(../images/flag-blue-small.png) transparent no-repeat;}
 
 .view-weekly.view-display-id-page .attachment .view-weekly.view-display-id-attachment_5,
 .view-daily.view-display-id-page .attachment .view-daily.view-display-id-attachment_5,
