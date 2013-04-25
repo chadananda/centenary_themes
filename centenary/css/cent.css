@@ -914,6 +914,8 @@ font-variant: small-caps;
 font-size: 17px;
 padding-top: 11px;
 }
+.view-events-block.view-display-id-page_1 .views-field-nid,
+.view-events-block.view-display-id-page_1 .views-field-title {margin-left:120px;}
 .view-events-block .views-field-field-main-image-fid { float:left; margin-right:9px; }
 
 #block-views-tagged_content-block_1,
