@@ -286,7 +286,7 @@ ul.links li.cg_term_delete a {
 .view-id-talk_navigation { width:41%; padding-right:9%; }
 .view-id-talk_navigation.view-display-id-block_1 { float:right; padding-right:0; padding-left:9px; text-align:right; }
 
-#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-views-daily-block_1, #block-block-2, #block-block-3, #block-block-4  { /* this is the set of three blocks */
+#block-views-encounter_block-block_1, #block-views-events_block-block_1, #block-views-daily-block_1, #block-block-2, #block-block-3, #block-block-4, #block-block-10  { /* this is the set of three blocks */
 	width: 235px;
 	margin: 9px;
 	margin-right:0px;
@@ -320,7 +320,7 @@ ul.links li.cg_term_delete a {
 	margin-top: 6px;
 	}
 
-#block-views-events_block-block_1 { /* this is the event block */
+#block-views-events_block-block_1, #block-block-10 { /* this is the event block */
 	border-right: 0px solid #000;
 }
 
@@ -917,7 +917,7 @@ padding-top: 11px;
 .view-events-block.view-display-id-page_1 .views-field-nid,
 .view-events-block.view-display-id-page_1 .views-field-title {margin-left:120px;}
 .view-events-block .views-field-field-main-image-fid { float:left; margin-right:9px; }
-.view-events-block.view-display-id-page_1 .views-field-field-main-image-fid a {position:relative;}
+.view-events-block.view-display-id-page_1 .views-field-field-main-image-fid a {position:relative;display:block;}
 .view-events-block.view-display-id-page_1 .views-field-field-main-image-fid a:after {
   content:url(../images/videoplaybutton.png);
   position:absolute;
